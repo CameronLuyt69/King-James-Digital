@@ -10,6 +10,6 @@
 
 
 .head {
-    background-image: url(/assets/hearo-top.jpg);
-    background-size: 100%;
+    background-image: url(assets/hearo-top.jpg);
+    height: 1000px;
 }
