@@ -1,0 +1,197 @@
+@font-face {
+    src: url(fonts/Montserrat-Medium.ttf);
+    font-family: Montserrat-M;
+    src: url(fonts/Montserrat-Regular.ttf);
+    font-family: Montserrat-R;
+    src: url(fonts/PlayfairDisplay-Medium.ttf);
+    font-family: PlayfairDisplay-M;
+    src: url(fonts/ProximaNova-Alt-Thin.otf);
+    font-family: ProximaNova;
+}
+body {
+    background-color: #201728;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    background-image: url(assets/hearo-top.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 813px;
+    width: 100%;
+    transform: skew(0deg, 2deg) translateY(-24px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .logo {
+        margin: auto;
+        transform: skew(0deg, -2deg) translateY(190px);
+        max-width: 30%;
+        max-height: 10%;
+
+    }
+    .arrow1 {
+        margin: auto;
+        transform: skew(0deg, -2deg) translateY(35px);
+        max-width: 2%;
+        max-height: 5%;
+    }
+}
+
+.intro {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(-100px);
+        background-color: #70259b;
+        font-family: 'PlayfairDisplay-M';
+        font-size: 250%;
+        text-align: center;
+        color: white;
+        width: 67%;
+        height: 450px;
+        padding-top: 10%;
+        padding-right: 10%;
+        padding-left: 10%;
+        padding-bottom: 20%;
+        margin: auto;
+
+        &::after {
+            border-color: transparent transparent #201728 transparent;
+            border-style: solid;
+            border-width: 0 0 4vw 70vw;
+            bottom: 0;
+            content: "";
+            height: 0;
+            width: 0;
+            position: absolute;
+            left: 0;
+            right: 0;
+            overflow: hidden;
+        }
+    }
+    .about-us-sec{
+        display: flex;
+        flex-direction: row;
+        .about-us {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: translateY(-220px);
+            background-color: transparent;
+            border: 2px #e01c5a solid;
+            color: white;
+            font-family: 'ProximaNova';
+            font-size: 90%;
+            text-align: center;
+            width: 10rem;
+            height: 3rem;
+        }
+        .arrow-right {
+            transform: translateY(-205px) translateX(-20px);
+            width: 45px;
+            height: 16px;
+        }
+    }
+}
+
+.sec1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .arrow-glyph {
+        margin: auto;
+        transform: translateY(-70px);
+        max-width: 2%;
+        max-height: 5%;
+    }
+    .hex-gradient {
+        margin: auto;
+        width: 33%;
+        transform: translateX(-120px)
+    }
+    .image-slider-1 {
+        margin: auto;
+        width: 45%;
+    }
+    .arrow-glyph2 {
+        margin: auto;
+    }
+}
+
+
+
+
+@media (max-width: 910px){
+    .intro {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+        .about {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: translateY(-100px);
+            background-color: #70259b;
+            font-family: 'PlayfairDisplay-M';
+            font-size: 170%;
+            text-align: center;
+            color: white;
+            width: 67%;
+            height: 450px;
+            padding-top: 0%;
+            padding-right: 10%;
+            padding-left: 10%;
+            padding-bottom: 20%;
+            margin: auto;
+    
+            &::after {
+                border-color: transparent transparent #201728 transparent;
+                border-style: solid;
+                border-width: 0 0 4vw 70vw;
+                bottom: 0;
+                content: "";
+                height: 0;
+                width: 0;
+                position: absolute;
+                left: 0;
+                right: 0;
+                overflow: hidden;
+            }
+        }
+        .about-us-sec{
+            display: flex;
+            flex-direction: row;
+            .about-us {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transform: translateY(-220px);
+                background-color: transparent;
+                border: 2px #e01c5a solid;
+                color: white;
+                font-family: 'ProximaNova';
+                font-size: 15px;
+                text-align: center;
+                width: 10rem;
+                height: 3rem;
+            }
+            .arrow-right {
+                transform: translateY(-205px) translateX(-20px);
+                width: 45px;
+                height: 16px;
+            }
+        }
+    }
+}
