@@ -5,9 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>King James Digital</title>
+    <script>
+        function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        /* Set the width of the side navigation to 0 */
+        function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
 </head>
 <body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+    </div>
+
     <section class="head">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <button class="sidenav-btn" onclick="openNav()">MENU</button>
         <img class="logo" src="assets/kjd-logo.png" />
         <img class="arrow1" src="assets/arrow-down.png" />
     </section>
@@ -17,7 +44,7 @@
             We offer an interconnected set of services to help our clients respond to the disruptions and seize the opportunities of the digital age.
         </div>
         <div class="about-us-sec">
-            <div class="about-us">ABOUT US</div>
+            <button class="about-us">ABOUT US</button>
             <img class="arrow-right" src="assets/arrow-right.png" />
         </div>
     </section>
@@ -26,16 +53,69 @@
         <img class="arrow-glyph" src="assets/arrow-glyph.png" />
         <img class="hex-gradient" src="assets/hex-gradient.png" />
         <img class="image-slider-1" src="assets/image-slider-1.jpg" />
+        <img class="glyph" src="assets/glyph.png" />
+        <img class="arrow-right2" src="assets/arrow-right.png" />
         <img class="arrow-glyph2" src="assets/arrow-glyph.png" />
-        <div></div>
+        <div class="sec1-head">Advertising communications</div>
+        <div class="sec1-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+        <button class="sec1-btn">READ MORE</button>
     </section>
 
-    <section class="sec2"></section>
+    <section class="sec2">
+        <img class="circle-gradient" src="assets/circle-gradient.png" />
+        <img class="image-slider-2" src="assets/image-slider-2.jpg" />
+        <img class="arrow-glyph-2" src="assets/arrow-glyph-2.png" />
+        <img class="arrow-right3" src="assets/arrow-right.png" />
+        <div class="sec2-head">Data analytics</div>
+        <div class="sec2-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+        <button class="sec2-btn">READ MORE</button>
+    </section>
 
-    <section class="sec3"></section>
+    <section class="sec3">
+        <div class="box01">
+            <h5 class="box-head" cl>LATEST NEWS</h5>
+            <h1 class="box-text">King James Digital win big at the 2017 Loeries</h1>
+            <img class="sec3-R-arrow" src="assets/arrow-right.png" />
+        </div>
 
-    <footer>
-        <div></div>
+        <div class="box02">
+            <h5 class="box-head">LATEST WORK</h5>
+            <h1 class="box-text">Sanlam Conspicious Savers</h1>
+            <img class="sec3-R-arrow" src="assets/arrow-right.png" />
+        </div>
+
+        <div class="box03">
+            <h5 class="box-head">LATEST CAREERS</h5>
+            <h1 class="box-text">Front end developer Cape Town</h1>
+            <img class="sec3-R-arrow" src="assets/arrow-right.png" />
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="foot01">
+            <h2 class="foot-head">CAPE TOWN</h2>
+            <div class="foot-email">Capetown@kingjames.digital</div>
+            <div class="foot-num">Tel: +27 21 469 1500</div>
+        </div>
+
+        <div class="foot02">
+            <h2 class="foot-head">JOBERG</h2>
+            <div class="foot-email">Joberg@kingjames.digital</div>
+            <div class="foot-num">Tel: +27 21 469 1500</div>
+        </div>
+
+        <div class="foot03">
+            <h2 class="foot-head">MEDIA & DATA</h2>
+            <div class="foot-email">Mediaanddata@kingjames.digital</div>
+            <div class="foot-num">Tel: +27 21 469 1500</div>
+        </div>
+
+        <div class="foot04">
+            <h2 class="foot-head">CONNECT</h2>
+            <div class="foot-email">Twitter</div>
+            <div class="foot-num">Facebook</div>
+        </div>
     </footer>
 </body>
 </html>
