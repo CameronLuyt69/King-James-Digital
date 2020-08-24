@@ -200,24 +200,24 @@ body {
     .arrow-glyph {
         margin: auto;
         transform: translateY(-70px);
-        max-width: 2%;
-        max-height: 20%;
+        max-width: 31px;
+        max-height: 127px;
     }
     .hex-gradient {
         margin: auto;
-        width: 30%;
+        width: 430px;
         transform: translateX(-120px)
     }
     .image-slider-1 {
         margin: auto;
-        width: 46.1%;
-        transform: translateX(160px) translateY(-300px)
+        width: 683px;
+        transform: translateX(190px) translateY(-300px)
     }
     .glyph {
         margin: auto;
-        width: 4%;
-        height: 242px;
-        transform: translateX(350px) translateY(-770px)
+        width: 54px;
+        height: 122px;
+        transform: translateX(400px) translateY(-820px)
     }
     .sec1-head {
         margin: auto;
@@ -226,18 +226,18 @@ body {
         color: white;
         font-size: 360%;
         letter-spacing: 3px;
-        width: 45%;
-        transform: translateX(-190px) translateY(-985px)
+        width: 450px;
+        transform: translateX(-270px) translateY(-1085px)
     }
     .sec1-text {
         margin: auto;
-        width: 22.18%;
+        width: 300px;
         color: white;
         font-family: 'ProximaNova-L';
         font-size: 90%;
         letter-spacing: 1px;
         line-height: 1.4rem;
-        transform: translateX(-340px) translateY(-940px)
+        transform: translateX(-340px) translateY(-1040px)
     }
     .sec1-btn {
         display: flex;
@@ -251,7 +251,7 @@ body {
         text-align: center;
         width: 8rem;
         height: 10.2rem;
-        transform: translateX(-425px) translateY(-900px);
+        transform: translateX(-425px) translateY(-1000px);
     }
     .sec1-btn:hover {
         background-color: #e01c5a;
@@ -267,12 +267,12 @@ body {
         margin: auto;
         width: 45px;
         height: 16px;
-        transform: translateX(-355px) translateY(-508px);
+        transform: translateX(-355px) translateY(-590px);
     }
     .arrow-glyph2 {
         margin: auto;
-        max-width: 2%;
-        max-height: 20%;
+        max-width: 31px;
+        max-height: 127px;
         transform: translateX(-260px) translateY(-460px);
     }
 }
@@ -286,18 +286,18 @@ body {
     height: 140vh;
     .circle-gradient {
         margin: auto;
-        width: 34%;
+        width: 500px;
         transform: translateX(122px) translateY(160px);
     }
     .image-slider-2 {
         margin: auto;
-        width: 47%;
+        width: 683px;
         transform: translateX(-242px) translateY(-200px);
     }
     .arrow-glyph-2 {
         margin: auto;
-        max-width: 8%;
-        max-height: 20%;
+        max-width: 31px;
+        max-height: 127px;
         transform: translateX(-5px) translateY(-225px);
     }
     .arrow-right3 {
@@ -313,12 +313,12 @@ body {
         color: white;
         font-size: 360%;
         letter-spacing: 1px;
-        width: 45%;
+        width: 500px;
         transform: translateX(350px) translateY(-755px);
     }
     .sec2-text {
         margin: auto;
-        width: 22.18%;
+        width: 300px;
         color: white;
         font-family: 'ProximaNova-L';
         font-size: 90%;
@@ -367,8 +367,8 @@ body {
         background-position: center center;
         background-repeat: no-repeat;
         background-size: auto;
-        width: 29.5%;
-        height: 75%;
+        width: 380px;
+        height: 330px;
         padding: 1.5rem;
         .box-head {
             color: #e01c5a;
@@ -392,8 +392,8 @@ body {
         background-position: center center;
         background-repeat: no-repeat;
         background-size: auto;
-        width: 29.5%;
-        height: 75%;
+        width: 380px;
+        height: 330px;
         padding: 1.5rem;
         .box-head {
             color: #e01c5a;
@@ -417,8 +417,8 @@ body {
         background-position: center center;
         background-repeat: no-repeat;
         background-size: auto;
-        width: 29.5%;
-        height: 75%;
+        width: 380px;
+        height: 330px;
         padding: 1.5rem;
         .box-head {
             color: #e01c5a;
@@ -559,7 +559,7 @@ body {
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 813px;
+        height: 300px;
         width: 100%;
         transform: skew(0deg, 2deg) translateY(-24px);
         display: flex;
@@ -578,18 +578,19 @@ body {
             text-align: center;
             width: 4rem;
             height: 2rem;
-            transform: skew(0deg, -2deg) translateX(-200px) translateY(50px);
+            transform: skew(0deg, -2deg) translateX(-130px) translateY(50px);
         }
         .sidenav-btn:focus {
             outline: none;
         }
         .logo {
             margin: auto;
-            transform: skew(0deg, -2deg) translateY(190px);
+            transform: skew(0deg, -2deg) translateY(40px);
             max-width: 30%;
             max-height: 10%;
         }
         .arrow1 {
+
             margin: auto;
             transform: skew(0deg, -2deg) translateY(35px);
             max-width: 2%;
@@ -606,17 +607,17 @@ body {
             display: flex;
             justify-content: center;
             align-items: center;
-            transform: translateY(-100px);
+            transform: translateY(-60px);
             background-color: #70259b;
             font-family: 'PlayfairDisplay-M';
-            font-size: 180%;
+            font-size: 1rem;
             text-align: center;
             color: white;
-            width: 67%;
-            height: 450px;
-            padding-top: 2%;
-            padding-right: 10%;
-            padding-left: 10%;
+            width: 250px;
+            height: 220px;
+            padding-top: 5%;
+            padding-right: 5%;
+            padding-left: 5%;
             padding-bottom: 20%;
             margin: auto;
     
@@ -641,23 +642,23 @@ body {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                transform: translateY(-220px);
+                transform: translateY(-120px) translateX(20px);
                 background-color: transparent;
                 border: 2px #e01c5a solid;
                 color: white;
                 font-family: 'ProximaNova-L';
-                font-size: 90%;
+                font-size: 60%;
                 text-align: center;
-                width: 10rem;
-                height: 3rem;
+                width: 5rem;
+                height: 2rem;
             }
             .about-us:focus {
                 outline: 2px solid #201728;
             }
             .arrow-right {
-                transform: translateY(-205px) translateX(-20px);
-                width: 45px;
-                height: 16px;
+                transform: translateY(-110px) translateX(10px);
+                width: 25px;
+                height: 11px;
             }
         }
     }
@@ -666,28 +667,28 @@ body {
         display: flex;
         align-items: center;
         flex-direction: column;
-        height: 125vh;
+        height: 120vh;
         .arrow-glyph {
             margin: auto;
             transform: translateY(-70px);
-            max-width: 2%;
-            max-height: 20%;
+            max-width: 15px;
+            max-height: 65px;
         }
         .hex-gradient {
             margin: auto;
-            width: 30%;
-            transform: translateX(-180px) translateY(-50px)
+            width: 120px;
+            transform: translateX(-80px) translateY(-10px)
         }
         .image-slider-1 {
             margin: auto;
-            width: 60.1%;
-            transform: translateX(0px) translateY(-170px)
+            width: 220px;
+            transform: translateX(0px) translateY(-90px)
         }
         .glyph {
             margin: auto;
-            width: 2%;
-            height: 42px;
-            transform: translateX(150px) translateY(-420px)
+            max-width: 15px;
+            max-height: 40px;
+            transform: translateX(70px) translateY(-240px)
         }
         .sec1-head {
             margin: auto;
@@ -696,16 +697,16 @@ body {
             color: white;
             font-size: 160%;
             letter-spacing: 3px;
-            width: 45%;
-            transform: translateX(-100px) translateY(-220px)
+            width: 150px;
+            transform: translateX(-80px) translateY(-135px)
         }
         .sec1-text {
             margin: auto;
-            width: 70%;
+            width: 280px;
             color: white;
             font-family: 'ProximaNova-L';
-            font-size: 90%;
-            transform: translateX(0px) translateY(-180px)
+            font-size: 80%;
+            transform: translateX(0px) translateY(-100px)
         }
         .sec1-btn {
             display: flex;
@@ -719,7 +720,7 @@ body {
             text-align: center;
             width: 8rem;
             height: 2rem;
-            transform: translateX(0px) translateY(-150px);
+            transform: translateX(0px) translateY(-60px);
         }
         .sec1-btn:focus {
             outline: 2px solid #70259b;
@@ -728,13 +729,13 @@ body {
             margin: auto;
             width: 45px;
             height: 16px;
-            transform: translateX(70px) translateY(115px);
+            transform: translateX(70px) translateY(215px);
         }
         .arrow-glyph2 {
             margin: auto;
-            max-width: 2%;
-            max-height: 20%;
-            transform: translateX(-180px) translateY(160px);
+            max-width: 15px;
+            max-height: 65px;
+            transform: translateX(-120px) translateY(240px);
         }
     }
     
@@ -744,28 +745,29 @@ body {
         flex-direction: column;
         background-color: #70259b;
         clip-path: polygon(0 9%, 100% 0, 100% 100%, 0% 100%);
-        height: 140vh;
+        height: 120vh;
         .circle-gradient {
             margin: auto;
-            width: 34%;
-            transform: translateX(162px) translateY(100px);
+            width: 150px;
+            transform: translateX(80px) translateY(100px);
         }
         .image-slider-2 {
             margin: auto;
-            width: 60.1%;
-            transform: translateX(0px) translateY(0px);
+            width: 200px;
+            transform: translateX(0px) translateY(-20px);
         }
         .arrow-glyph-2 {
+            display: none;
             margin: auto;
-            max-width: 4%;
-            max-height: 10%;
-            transform: translateX(120px) translateY(-50px);
+            max-width: 15px;
+            max-height: 65px;
+            transform: translateX(120px) translateY(350px);
         }
         .arrow-right3 {
             margin: auto;
             width: 45px;
             height: 16px;
-            transform: translateX(75px) translateY(210px);
+            transform: translateX(75px) translateY(230px);
         } 
         .sec2-head {
             margin: auto;
@@ -774,12 +776,12 @@ body {
             color: white;
             font-size: 160%;
             letter-spacing: 1px;
-            width: 45%;
-            transform: translateX(-100px) translateY(-100px);
+            width: 200px;
+            transform: translateX(-60px) translateY(-50px);
         }
         .sec2-text {
             margin: auto;
-            width: 70%;
+            width: 280px;
             color: white;
             font-family: 'ProximaNova-L';
             font-size: 90%;
@@ -797,8 +799,8 @@ body {
             font-size: 90%;
             text-align: center;
             width: 8rem;
-            height: 3rem;
-            transform: translateX(0px) translateY(-50px);
+            height: 2rem;
+            transform: translateX(0px) translateY(-60px);
         }
         .sec2-btn:focus {
             outline: 2px solid #201728;
@@ -819,9 +821,9 @@ body {
             background-position: center center;
             background-repeat: no-repeat;
             background-size: auto;
-            width: 80%;
-            height: 30%;
-            padding: 1.5rem;
+            width: 270px;
+            height: 150px;
+            padding: 1rem;
             .box-head {
                 color: #e01c5a;
                 font-family: 'ProximaNova-L';
@@ -830,12 +832,12 @@ body {
                 color: white;
                 font-family: 'PlayfairDisplay-M';
                 max-width: 90%;
-                padding-top: 1rem;
-                font-size: 1.8rem;
+                padding-top: 0.5rem;
+                font-size: 1.5rem;
             }
             .sec3-R-arrow {
                 margin: auto;
-                transform: translateX(280px) translateY(10px);
+                transform: translateX(190px) translateY(0px);
             }
         }
         .box02 {
@@ -844,9 +846,9 @@ body {
             background-position: center center;
             background-repeat: no-repeat;
             background-size: auto;
-            width: 80%;
-            height: 30%;
-            padding: 1.5rem;
+            width: 270px;
+            height: 150px;
+            padding: 1rem;
             .box-head {
                 color: #e01c5a;
                 font-family: 'ProximaNova-L';
@@ -855,12 +857,12 @@ body {
                 color: white;
                 font-family: 'PlayfairDisplay-M';
                 max-width: 90%;
-                padding-top: 1rem;
-                font-size: 1.8rem;
+                padding-top: 0.5rem;
+                font-size: 1.5rem;
             }
             .sec3-R-arrow {
                 margin: auto;
-                transform: translateX(280px) translateY(0px);
+                transform: translateX(190px) translateY(20px);
             }
         }
         .box03 {
@@ -869,9 +871,9 @@ body {
             background-position: center center;
             background-repeat: no-repeat;
             background-size: auto;
-            width: 80%;
-            height: 30%;
-            padding: 1.5rem;
+            width: 270px;
+            height: 150px;
+            padding: 1rem;
             .box-head {
                 color: #e01c5a;
                 font-family: 'ProximaNova-L';
@@ -880,12 +882,12 @@ body {
                 color: white;
                 font-family: 'PlayfairDisplay-M';
                 max-width: 90%;
-                padding-top: 1rem;
-                font-size: 1.8rem;
+                padding-top: 0.5rem;
+                font-size: 1.5rem;
             }
             .sec3-R-arrow {
                 margin: auto;
-                transform: translateX(280px) translateY(10px);
+                transform: translateX(190px) translateY(20px);
             }
         }
     }
@@ -900,7 +902,7 @@ body {
         padding: 3rem;
         .foot01 {
             margin: auto;
-            width: 50%;
+            width: 80%;
             .foot-head { 
                 margin: auto;
                 font-family: 'PlayfairDisplay-R';
@@ -929,7 +931,7 @@ body {
         }
         .foot02 {
             margin: auto;
-            width: 50%;      
+            width: 80%;      
             .foot-head {
                 margin: auto;
                 font-family: 'PlayfairDisplay-R';
@@ -959,7 +961,7 @@ body {
         }
         .foot03 {
             margin: auto;
-            width: 50%;      
+            width: 80%;      
             .foot-head {
                 margin: auto;
                 font-family: 'PlayfairDisplay-R';
@@ -988,7 +990,7 @@ body {
         }
         .foot04 {
             margin: auto;
-            width: 50%;      
+            width: 80%;      
             .foot-head {
                 margin: auto;
                 font-family: 'PlayfairDisplay-R';
