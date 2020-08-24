@@ -35,23 +35,29 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #201728;
+  background-color: #70259b;
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;
 }
 
 .sidenav a {
+  display: block;
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #e01c5a;
+  color: white;
   display: block;
   transition: 0.3s;
 }
+.sidenav a::before {
+  content: "";
+  background-color: #201728;
+}
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  background-color: #201728;
+  color: white;
 }
 
 .sidenav .closebtn {
@@ -181,13 +187,13 @@ body {
 }
 .intro .about-us-sec .about-us:hover {
   background-color: #e01c5a;
-  transition: 0.5s;
-  font-weight: bolder;
+  transition: 1s;
 }
 .intro .about-us-sec .about-us:focus {
   background-color: #e01c5a;
-  outline: none;
-  border: 2px #e01c5a solid;
+  transition: 0s;
+  outline: 2px #e01c5a solid;
+  border: 1.5px #70259b solid;
 }
 .intro .about-us-sec .arrow-right {
   transform: translateY(-205px) translateX(-20px);
@@ -195,17 +201,21 @@ body {
   height: 16px;
 }
 
+.arrow-glyph {
+  display: flex;
+  justify-items: center;
+  align-content: center;
+  margin: auto;
+  transform: translateY(-70px);
+  width: 31px;
+  height: 127px;
+}
+
 .sec1 {
   display: flex;
   align-items: center;
   flex-direction: column;
   height: 135vh;
-}
-.sec1 .arrow-glyph {
-  margin: auto;
-  transform: translateY(-70px);
-  max-width: 31px;
-  max-height: 127px;
 }
 .sec1 .hex-gradient {
   margin: auto;
@@ -308,7 +318,7 @@ body {
   margin: auto;
   width: 45px;
   height: 16px;
-  transform: translateX(275px) translateY(-435px);
+  transform: translateX(275px) translateY(-535px);
 }
 .sec2 .sec2-head {
   margin: auto;
@@ -318,7 +328,7 @@ body {
   font-size: 360%;
   letter-spacing: 1px;
   width: 500px;
-  transform: translateX(350px) translateY(-755px);
+  transform: translateX(320px) translateY(-805px);
 }
 .sec2 .sec2-text {
   margin: auto;
@@ -328,7 +338,7 @@ body {
   font-size: 90%;
   letter-spacing: 1px;
   line-height: 1.4rem;
-  transform: translateX(290px) translateY(-700px);
+  transform: translateX(290px) translateY(-770px);
 }
 .sec2 .sec2-btn {
   margin: auto;
@@ -343,7 +353,7 @@ body {
   text-align: center;
   width: 8rem;
   height: 10rem;
-  transform: translateX(205px) translateY(-650px);
+  transform: translateX(205px) translateY(-750px);
 }
 .sec2 .sec2-btn:hover {
   background-color: #e01c5a;
@@ -659,6 +669,16 @@ body {
     height: 11px;
   }
 
+  .arrow-glyph {
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    margin: auto;
+    transform: translateY(-70px);
+    width: 15px;
+    height: 60px;
+  }
+
   .sec1 {
     display: flex;
     align-items: center;
@@ -726,7 +746,7 @@ body {
     margin: auto;
     width: 45px;
     height: 16px;
-    transform: translateX(70px) translateY(215px);
+    transform: translateX(70px) translateY(245px);
   }
   .sec1 .arrow-glyph2 {
     margin: auto;
@@ -764,7 +784,7 @@ body {
     margin: auto;
     width: 45px;
     height: 16px;
-    transform: translateX(75px) translateY(230px);
+    transform: translateX(70px) translateY(230px);
   }
   .sec2 .sec2-head {
     margin: auto;

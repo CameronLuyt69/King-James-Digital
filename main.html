@@ -4,15 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="animate.css" />
+    <style>
+      .wow:first-child {
+        visibility: hidden;
+      }
+    </style>
     <title>King James Digital</title>
-    <script>
-        function openNav() {
-        document.getElementById("mySidenav").style.width = "250px";
-        }
-        function closeNav() {
-        document.getElementById("mySidenav").style.width = "0";
-        }
-    </script>
 </head>
 <body>
     <div id="mySidenav" class="sidenav">
@@ -34,22 +32,23 @@
 
         <button class="sidenav-btn" onclick="openNav()">MENU</button>
         <img class="logo" src="assets/kjd-logo.png" />
-        <img href="#intro" class="arrow1" src="assets/arrow-down.png" />
+        <img href="#intro" class="arrow1 wow bounceIn" src="assets/arrow-down.png" />
     </section>
 
-    <section id="intro" class="intro">
+    <section class="intro">
         <div class="about">
-            We offer an interconnected set of services to help our clients respond to the disruptions and seize the opportunities of the digital age.
+            <p class="wow slideInLeft">We offer an interconnected set of services to help our clients respond to the disruptions and seize the opportunities of the digital age.</p>
         </div>
-        <div class="about-us-sec">
+        <div class="about-us-sec wow slideInRight">
             <button class="about-us">ABOUT US</button>
             <img class="arrow-right" src="assets/arrow-right.png" />
         </div>
     </section>
 
-    <section class="sec1">
-        <img class="arrow-glyph" src="assets/arrow-glyph.png" />
-        <img class="hex-gradient" src="assets/hex-gradient.png" />
+    <img class="arrow-glyph wow fadeInDown" src="assets/arrow-glyph.png" />
+
+    <section class="sec1 wow slideInLeft">
+        <img class="hex-gradient wow rotateIn" src="assets/hex-gradient.png" />
         <img class="image-slider-1" src="assets/image-slider-1.jpg" />
         <img class="glyph" src="assets/glyph.png" />
         <img class="arrow-right2" src="assets/arrow-right.png" />
@@ -59,7 +58,7 @@
         <button class="sec1-btn">READ MORE</button>
     </section>
 
-    <section class="sec2">
+    <section class="sec2 wow bounceIn">
         <img class="circle-gradient" src="assets/circle-gradient.png" />
         <img class="image-slider-2" src="assets/image-slider-2.jpg" />
         <img class="arrow-glyph-2" src="assets/arrow-glyph-2.png" />
@@ -70,19 +69,19 @@
     </section>
 
     <section class="sec3">
-        <div class="box01">
+        <div class="box01 wow rotateInDownLeft">
             <h5 class="box-head" cl>LATEST NEWS</h5>
             <h1 class="box-text">King James Digital win big at the 2017 Loeries</h1>
             <img class="sec3-R-arrow" src="assets/arrow-right.png" />
         </div>
 
-        <div class="box02">
+        <div class="box02 wow bounceInUp">
             <h5 class="box-head">LATEST WORK</h5>
             <h1 class="box-text">Sanlam Conspicious Savers</h1>
             <img class="sec3-R-arrow" src="assets/arrow-right.png" />
         </div>
 
-        <div class="box03">
+        <div class="box03 wow rotateInDownRight">
             <h5 class="box-head">LATEST CAREERS</h5>
             <h1 class="box-text">Front end developer Cape Town</h1>
             <img class="sec3-R-arrow" src="assets/arrow-right.png" />
@@ -91,29 +90,38 @@
 
 
     <footer class="footer">
-        <div class="foot01">
+        <div class="foot01 wow bounceInLeft">
             <h2 class="foot-head">CAPE TOWN</h2>
             <div class="foot-email">Capetown@kingjames.digital</div>
             <div class="foot-num">Tel: +27 21 469 1500</div>
         </div>
 
-        <div class="foot02">
+        <div class="foot02 wow fadeInUp">
             <h2 class="foot-head">JOBERG</h2>
             <div class="foot-email">Joberg@kingjames.digital</div>
             <div class="foot-num">Tel: +27 21 469 1500</div>
         </div>
 
-        <div class="foot03">
+        <div class="foot03 wow fadeInUp">
             <h2 class="foot-head">MEDIA & DATA</h2>
             <div class="foot-email">Mediaanddata@kingjames.digital</div>
             <div class="foot-num">Tel: +27 21 469 1500</div>
         </div>
 
-        <div class="foot04">
+        <div class="foot04 wow bounceInRight">
             <h2 class="foot-head">CONNECT</h2>
             <div class="foot-email">Twitter</div>
             <div class="foot-num">Facebook</div>
         </div>
     </footer>
+    <script src="script.js"></script>
+    <script src="wow.min.js"></script>
+    <script>
+        wow = new WOW({
+            animateClass: "animated",
+            offset: 0,
+        });
+        wow.init();
+    </script>
 </body>
 </html>
