@@ -757,6 +757,7 @@ body {
     border: 1.5px #201728 solid;
   }
   .sec1 .arrow-right2 {
+    display: none;
     margin: auto;
     width: 45px;
     height: 16px;
@@ -788,7 +789,6 @@ body {
     transform: translateX(0px) translateY(-20px);
   }
   .sec2 .arrow-glyph-2 {
-    display: none;
     margin: auto;
     max-width: 15px;
     max-height: 65px;
@@ -876,7 +876,6 @@ body {
     font-size: 1.5rem;
   }
   .sec3 .box01 .sec3-R-arrow {
-    display: none;
     margin: auto;
     transform: translateX(190px) translateY(10px);
   }
