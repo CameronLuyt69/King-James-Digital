@@ -767,7 +767,7 @@ body {
             margin: auto;
             max-width: 15px;
             max-height: 65px;
-            transform: translateX(-120px) translateY(240px);
+            transform: translateX(-120px) translateY(280px);
         }
     }
     
@@ -796,10 +796,11 @@ body {
             transform: translateX(120px) translateY(350px);
         }
         .arrow-right3 {
+            display: none;
             margin: auto;
             width: 45px;
             height: 16px;
-            transform: translateX(70px) translateY(230px);
+            transform: translateX(70px) translateY(250px);
         } 
         .sec2-head {
             margin: auto;
@@ -875,6 +876,7 @@ body {
                 font-size: 1.5rem;
             }
             .sec3-R-arrow {
+                display: none;
                 margin: auto;
                 transform: translateX(190px) translateY(10px);
             }
