@@ -108,7 +108,7 @@ body {
   text-align: center;
   width: 4rem;
   height: 2rem;
-  transform: skew(0deg, -2deg) translateX(-630px) translateY(50px);
+  transform: skew(0deg, -2deg) translateX(-500px) translateY(50px);
 }
 .head .sidenav-btn:hover {
   border: 2px black solid;
@@ -381,8 +381,8 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: auto;
-  width: 380px;
-  height: 330px;
+  width: 30%;
+  height: 80%;
   padding: 1.5rem;
 }
 .sec3 .box01 .box-head {
@@ -398,7 +398,8 @@ body {
 }
 .sec3 .box01 .sec3-R-arrow {
   margin: auto;
-  transform: translateX(270px) translateY(70px);
+  padding-top: 25%;
+  padding-left: 80%;
 }
 .sec3 .box02 {
   margin: auto;
@@ -406,8 +407,8 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: auto;
-  width: 380px;
-  height: 330px;
+  width: 30%;
+  height: 80%;
   padding: 1.5rem;
 }
 .sec3 .box02 .box-head {
@@ -423,7 +424,8 @@ body {
 }
 .sec3 .box02 .sec3-R-arrow {
   margin: auto;
-  transform: translateX(270px) translateY(110px);
+  padding-top: 35%;
+  padding-left: 80%;
 }
 .sec3 .box03 {
   margin: auto;
@@ -431,8 +433,8 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: auto;
-  width: 380px;
-  height: 330px;
+  width: 30%;
+  height: 80%;
   padding: 1.5rem;
 }
 .sec3 .box03 .box-head {
@@ -448,7 +450,8 @@ body {
 }
 .sec3 .box03 .sec3-R-arrow {
   margin: auto;
-  transform: translateX(270px) translateY(110px);
+  padding-top: 35%;
+  padding-left: 80%;
 }
 
 .footer {
@@ -860,7 +863,8 @@ body {
   }
   .sec3 .box01 .sec3-R-arrow {
     margin: auto;
-    transform: translateX(190px) translateY(10px);
+    padding-top: 15%;
+    padding-left: 80%;
   }
   .sec3 .box02 {
     margin: auto;
@@ -885,7 +889,8 @@ body {
   }
   .sec3 .box02 .sec3-R-arrow {
     margin: auto;
-    transform: translateX(190px) translateY(40px);
+    padding-top: 25%;
+    padding-left: 80%;
   }
   .sec3 .box03 {
     margin: auto;
@@ -910,7 +915,8 @@ body {
   }
   .sec3 .box03 .sec3-R-arrow {
     margin: auto;
-    transform: translateX(190px) translateY(40px);
+    padding-top: 25%;
+    padding-left: 80%;
   }
 
   .footer {

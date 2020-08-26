@@ -103,7 +103,7 @@ body {
         text-align: center;
         width: 4rem;
         height: 2rem;
-        transform: skew(0deg, -2deg) translateX(-630px) translateY(50px);
+        transform: skew(0deg, -2deg) translateX(-500px) translateY(50px);
     }
     .sidenav-btn:hover {
         border: 2px black solid
@@ -375,8 +375,8 @@ body {
         background-position: center center;
         background-repeat: no-repeat;
         background-size: auto;
-        width: 380px;
-        height: 330px;
+        width: 30%;
+        height: 80%;
         padding: 1.5rem;
         .box-head {
             color: #e01c5a;
@@ -391,7 +391,8 @@ body {
         }
         .sec3-R-arrow {
             margin: auto;
-            transform: translateX(270px) translateY(70px);
+            padding-top: 25%;
+            padding-left: 80%;
         }
     }
     .box02 {
@@ -400,8 +401,8 @@ body {
         background-position: center center;
         background-repeat: no-repeat;
         background-size: auto;
-        width: 380px;
-        height: 330px;
+        width: 30%;
+        height: 80%;
         padding: 1.5rem;
         .box-head {
             color: #e01c5a;
@@ -416,7 +417,9 @@ body {
         }
         .sec3-R-arrow {
             margin: auto;
-            transform: translateX(270px) translateY(110px);
+            // transform: translateX(250px) translateY(90px);
+            padding-top: 35%;
+            padding-left: 80%;
         }
     }
     .box03 {
@@ -425,8 +428,8 @@ body {
         background-position: center center;
         background-repeat: no-repeat;
         background-size: auto;
-        width: 380px;
-        height: 330px;
+        width: 30%;
+        height: 80%;
         padding: 1.5rem;
         .box-head {
             color: #e01c5a;
@@ -441,7 +444,9 @@ body {
         }
         .sec3-R-arrow {
             margin: auto;
-            transform: translateX(270px) translateY(110px);
+            // transform: translateX(250px) translateY(90px);
+            padding-top: 35%;
+            padding-left: 80%;
         }
     }
 }
@@ -860,7 +865,8 @@ body {
             }
             .sec3-R-arrow {
                 margin: auto;
-                transform: translateX(190px) translateY(10px);
+                padding-top: 15%;
+                padding-left: 80%;
             }
         }
         .box02 {
@@ -885,7 +891,8 @@ body {
             }
             .sec3-R-arrow {
                 margin: auto;
-                transform: translateX(190px) translateY(40px);
+                padding-top: 25%;
+                padding-left: 80%;
             }
         }
         .box03 {
@@ -910,7 +917,8 @@ body {
             }
             .sec3-R-arrow {
                 margin: auto;
-                transform: translateX(190px) translateY(40px);
+                padding-top: 25%;
+                padding-left: 80%;
             }
         }
     }
