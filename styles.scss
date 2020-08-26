@@ -692,22 +692,16 @@ body {
         display: flex;
         align-items: center;
         flex-direction: column;
-        height: 120vh;
-        .arrow-glyph {
-            margin: auto;
-            transform: translateY(-70px);
-            max-width: 15px;
-            max-height: 65px;
-        }
+        height: 90vh;
         .hex-gradient {
             margin: auto;
             width: 120px;
-            transform: translateX(-80px) translateY(-10px)
+            transform: translateX(-80px) translateY(-60px)
         }
         .image-slider-1 {
             margin: auto;
             width: 220px;
-            transform: translateX(0px) translateY(-90px)
+            transform: translateX(0px) translateY(-140px)
         }
         .glyph {
             margin: auto;
@@ -723,7 +717,7 @@ body {
             font-size: 160%;
             letter-spacing: 3px;
             width: 150px;
-            transform: translateX(-80px) translateY(-135px)
+            transform: translateX(-80px) translateY(-215px)
         }
         .sec1-text {
             margin: auto;
@@ -731,7 +725,7 @@ body {
             color: white;
             font-family: 'ProximaNova-L';
             font-size: 80%;
-            transform: translateX(0px) translateY(-100px)
+            transform: translateX(0px) translateY(-190px)
         }
         .sec1-btn {
             display: flex;
@@ -745,7 +739,7 @@ body {
             text-align: center;
             width: 8rem;
             height: 2rem;
-            transform: translateX(0px) translateY(-60px);
+            transform: translateX(0px) translateY(-160px);
         }
         .sec1-btn:hover {
             background-color: #e01c5a;
@@ -759,16 +753,12 @@ body {
         }
         .arrow-right2 {
             display: none;
-            margin: auto;
-            width: 45px;
-            height: 16px;
-            transform: translateX(70px) translateY(245px);
         }
         .arrow-glyph2 {
             margin: auto;
             max-width: 15px;
             max-height: 65px;
-            transform: translateX(-120px) translateY(280px);
+            transform: translateX(-120px) translateY(140px);
         }
     }
     
@@ -778,29 +768,25 @@ body {
         flex-direction: column;
         background-color: #70259b;
         clip-path: polygon(0 9%, 100% 0, 100% 100%, 0% 100%);
-        height: 120vh;
+        height: 100vh;
         .circle-gradient {
             margin: auto;
             width: 150px;
-            transform: translateX(80px) translateY(100px);
+            transform: translateX(80px) translateY(40px);
         }
         .image-slider-2 {
             margin: auto;
             width: 200px;
-            transform: translateX(0px) translateY(-20px);
+            transform: translateX(0px) translateY(-50px);
         }
         .arrow-glyph-2 {
             margin: auto;
             max-width: 15px;
             max-height: 65px;
-            transform: translateX(120px) translateY(350px);
+            transform: translateX(120px) translateY(290px);
         }
         .arrow-right3 {
             display: none;
-            margin: auto;
-            width: 45px;
-            height: 16px;
-            transform: translateX(70px) translateY(250px);
         } 
         .sec2-head {
             margin: auto;
@@ -810,7 +796,7 @@ body {
             font-size: 160%;
             letter-spacing: 1px;
             width: 200px;
-            transform: translateX(-60px) translateY(-50px);
+            transform: translateX(-60px) translateY(-100px);
         }
         .sec2-text {
             margin: auto;
@@ -818,7 +804,7 @@ body {
             color: white;
             font-family: 'ProximaNova-L';
             font-size: 90%;
-            transform: translateX(0px) translateY(-60px);
+            transform: translateX(0px) translateY(-80px);
         }
         .sec2-btn {
             margin: auto;
