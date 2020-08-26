@@ -757,7 +757,7 @@ body {
     margin: auto;
     max-width: 15px;
     max-height: 65px;
-    transform: translateX(-120px) translateY(140px);
+    transform: translateX(-120px) translateY(160px);
   }
 
   .sec2 {
@@ -779,10 +779,7 @@ body {
     transform: translateX(0px) translateY(-50px);
   }
   .sec2 .arrow-glyph-2 {
-    margin: auto;
-    max-width: 15px;
-    max-height: 65px;
-    transform: translateX(120px) translateY(290px);
+    display: none;
   }
   .sec2 .arrow-right3 {
     display: none;

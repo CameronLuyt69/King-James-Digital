@@ -758,7 +758,7 @@ body {
             margin: auto;
             max-width: 15px;
             max-height: 65px;
-            transform: translateX(-120px) translateY(140px);
+            transform: translateX(-120px) translateY(160px);
         }
     }
     
@@ -780,10 +780,7 @@ body {
             transform: translateX(0px) translateY(-50px);
         }
         .arrow-glyph-2 {
-            margin: auto;
-            max-width: 15px;
-            max-height: 65px;
-            transform: translateX(120px) translateY(290px);
+            display: none;
         }
         .arrow-right3 {
             display: none;
